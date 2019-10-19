@@ -97,3 +97,23 @@ boduy{
 
 em relative to parent font size
 rem  (root) base font size
+
+.FlexContent{
+    order : -1
+}
+to change element order 
+
+
+to change image 
+
+srcset and sizes
+<img srcset="xxxx.jpg 450w , xxxx2.jpg 900w" sizes="(min-width :17em) 100vw, (min-width: 40em) 50vw" src="xxx.jpg" alt= "xxx">
+element <picture> 
+container for <img>
+
+<picture>
+    <source media="(min-width : 30em)" srcset="xxxx.jpg">
+    <source>
+    <img>//img is the backup for those bowsers not supporting picture
+</picture>
+
