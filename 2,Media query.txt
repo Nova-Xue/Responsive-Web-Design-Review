@@ -1,0 +1,53 @@
+media query ≈ if/else
+
+320px / 550px/ 768px/ 960px
+
+i.e.
+
+<link rel-"stylesheet" media="screen and (orientation : portratit)"
+    href="portratit-screen.css"/
+>
+
+
+<link rel-"stylesheet" media="screen and (orientation : portratit) and (min-width : 800px), projection"
+    href="800wide-portratit-screen.css"/
+>
+
+px = em * 16 
+
+@import(slow browser down with extra http requests)
+
+@import url("phone.css") screen and (max-width : 360px);
+
+media query in css
+
+@media screen and (max-device-width : 400px){
+    h1{
+        color : green;
+    }
+}
+
+high resolution
+@media (min-resolution : 2dppx){
+
+}
+
+
+media query in regular css to save http requests
+
+(<meta> created in 2007 for Apple)
+
+<meta name="viewport" content="initial-scale=1.0 ,width=device-width"/>
+
+prevent scale by 
+user-scalable=no
+
+@media (over : none){
+
+}
+@media (hover : on-demand){
+
+}
+@media (hover){
+    
+}

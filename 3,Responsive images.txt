@@ -1,0 +1,99 @@
+use percentage instead of fixed px or em 
+
+
+Flexbox
+1 inline block is hard to align
+2 float is hard to cross platform with elements designed in percentage  
+    and float has to be cleared to avoid the fold of parent and child elements
+
+3 table and table-cell  the content has  to be wrapped in them to be aligned
+
+not supported before and on IE 9
+
+autoprefixer (helpful plug-in)
+
+i.e.
+.CenterMe
+{
+    display : flex;
+    align-items :center;
+    justify-content : center;
+}
+
+
+nav with flex box
+.Wrap{
+    display : flex ;
+    align-items : center
+}
+.Items{
+    margin-right : 1rem;
+}
+// margin-left to make the last float to the right end
+.LastItem{
+    margin-left : auto:
+}
+//to reverse the items
+.Wrap{
+    //.....same
+
+    flex-direction :row-reverse;
+}
+//to make items vertical
+.Wrap{
+    ....
+    flex-direction : column;
+}
+//also column-reverse
+
+and then comnbine with media query
+
+inline-flex
+has to be used with an element that is flex
+
+alignment  
+
+
+align-items 
+
+to align items within the Flexbox based on cross axis
+
+align-self : flex-end;  to align  the single element 
+flex-start 
+baseline
+center
+stretch  
+
+justify-content 
+
+alignment on main axis
+
+space-between 
+space-around
+
+.FlexInner{
+    display : flex;
+    flex : 1;
+}
+
+flex = flex-grow flex-shrink and flex-basis
+
+flex can be used to set ratio between inner elements
+
+sticky footer
+
+boduy{
+    display : flex;
+    flex-direction : column;
+    min-height: 100%;
+}
+.MainContent {
+    flex: 1;
+    padding : .5rem;
+}
+.Footer {
+    padding : .5rem;
+}
+
+em relative to parent font size
+rem  (root) base font size
