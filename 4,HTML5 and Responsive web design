@@ -1,0 +1,32 @@
+doctype
+
+lang
+
+charset utf-8 
+
+semantic elements
+
+<main>
+<section>
+<nav>
+<article>
+<aside>
+<figure> and <figcaption>
+<details> and <summary>
+<header>
+<footer>
+<address> //where contact info should go inside
+
+h1 - h6 are NOT for titles subtitles captions and  slogens
+
+for text structure
+<b>
+<em> 
+<i>
+
+embedded media
+
+<video>
+<audio>
+need backup code for older versions of browsers
+
