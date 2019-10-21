@@ -1,0 +1,127 @@
+tricks in CSS3
+
+mian{
+    column-width : 12em;
+}
+main{
+    column-ocunt : 4;
+}
+main{
+    column-gap : 2em;
+    column-rule : thin dotted red;
+    column-width : 12em;
+}
+
+CSS3 multi-column layout module 
+www.w3.org/TR/css3-multicol
+
+word-wrap : break-word;
+
+for example to fold long url
+
+.truncate{
+    width : ....;
+    overflow : hidden; //
+    text-overflow ; ellipsis;
+    white-space : no-wrap; // to hide extra letters
+}
+
+.Scroll-Wrapper{
+    width:100%;
+    white-space:nowrap;
+    overflow-x: auto;
+    overflow-y : hidden;
+
+}
+.Item{
+    display:inline-flex;
+}
+
+::before
+::after
+
+
+@supports (flashing-sausages : lincolnshire){
+
+    body{
+
+    }
+}
+
+selectors 
+img [alt]{
+    border : xxxx ;
+}
+[data-sausage]{
+
+
+}
+img [alt="xxxx"]{
+
+}
+
+alt begin with "film"
+img [alt^="film"]{
+
+}
+
+include "value"
+[data-attribute*="value"]{
+
+}
+
+end with "value"
+
+[data-value$="value"]{
+
+
+}
+
+div : first-child
+div : last-child
+.nav-Link : nth-child(odd//or even){
+
+}
+
+
+
+nth-child
+nth-last-child
+nth-of-type
+nth-last-of-type
+
+
+span :nth-child(2n+3){
+
+}
+3,5,7,9
+span:nth-child(-2n+3)
+3,1
+
+nth-child and nth-last-child to control fluid grid
+
+.a-div: not(.not-me){
+
+}
+
+:empty
+
+: first-line
+
+function calc
+
+.thing{
+    width : calc (50%-10px);
+}
+
+based on parent sacle
+
+
+level 4 
+
+
+RGB and HSL
+
+
+
+
