@@ -1,0 +1,41 @@
+placeholder
+required
+autofocus (use only once in a form , multi autofocus may cause different display in different browsers)
+autocomplete
+list and datalist
+<input list="awards">
+<datalist id="awards">
+    <select>
+        <option value="111"></option>
+        <option value="111"></option>
+        <option value="111"></option>
+    </select>
+</datalist>
+
+email
+number(min and max)
+url
+tel
+search
+pattern
+pattern="(your regex)"
+not well supported:
+color
+date
+month week time 
+
+range (min and max)
+JavaScript to show onchange range number
+
+
+
+to style the inputs in a form
+
+input:required{
+
+}
+
+input:focus:required{
+
+
+}
